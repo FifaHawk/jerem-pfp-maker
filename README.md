@@ -7,7 +7,7 @@
 
 
 ## Usage:
-Type rgb values for the background then foreground into the console, check the output folder for your jerem pfp.
+Type rgb values seperated by commas without spaces for the background and foreground into the console, check the output folder for your freshly baked jerem1as pfp.
 
 ##Coming Soon:
 * Random pfp
