@@ -6,4 +6,17 @@
 ### Supports customisation for background and foreground colours.
 
 
-Too many variables, smh.
+## Usage:
+Type rgb values for the background then foreground into the console, check the output folder for your jerem pfp.
+
+##Coming Soon:
+* Random pfp
+* Customisable resolution, (vector)
+* Bot integration
+
+
+
+
+
+
+**relatively clean code.
