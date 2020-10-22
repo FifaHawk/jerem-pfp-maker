@@ -11,7 +11,7 @@ Type rgb values seperated by commas without spaces for the background and foregr
 
 ## Coming Soon:
 * Random pfp
-* Customisable resolution, (vector)
+* ~~Customisable resolution, (vector)~~ **✓**
 * Bot integration
 
 
