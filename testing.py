@@ -14,16 +14,16 @@ def randrgb():
 
 #process image, turn grayscale and invert
 alpha = Image.open("resources/jerem.eps")
-alpha.load(scale=2)
-alpha = im.convert("L")
+alpha.load(scale=16)
+alpha = alpha.convert("L")
 alpha = ImageOps.invert(alpha)
 
 #create face rgba
-fore = Image.new("RGB", im.size, (0,0,0))
+fore = Image.new("RGB", alpha.size, (161, 201, 40))
 fore.putalpha(im)
 
 #create background rgba
-back = Image.new("RGBA", im.size, (255,0,0))
+back = Image.new("RGBA", alpha.size, (166, 68, 61))
 
 #composite foreground and background
 pfp = Image.alpha_composite(back,fore)
