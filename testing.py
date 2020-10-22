@@ -19,8 +19,8 @@ alpha = alpha.convert("L")
 alpha = ImageOps.invert(alpha)
 
 #create face rgba
-fore = Image.new("RGB", alpha.size, (161, 201, 40))
-fore.putalpha(im)
+fore = Image.new("RGB", alpha.size, (227, 211, 129))
+fore.putalpha(alpha)
 
 #create background rgba
 back = Image.new("RGBA", alpha.size, (166, 68, 61))
