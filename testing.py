@@ -8,10 +8,10 @@ def randrgb():
     return (random.randint(0,255),random.randint(0,255),random.randint(0,255))
 
 #process image, turn grayscale and invert
-im = Image.open("resources/jerem.eps")
-im.load(scale=2)
-im = im.convert("L")
-im = ImageOps.invert(im)
+alpha = Image.open("resources/jerem.eps")
+alpha.load(scale=2)
+alpha = im.convert("L")
+alpha = ImageOps.invert(alpha)
 
 #create face rgba
 fore = Image.new("RGB", im.size, (0,0,0))
