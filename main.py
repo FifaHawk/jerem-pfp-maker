@@ -7,17 +7,17 @@ bgi = input("Enter background rgb values seperated by commas: ")
 fgi = input("Enter foreground rgb values seperated by commas: ")
 
 #split string into list
-rgbstrback = bgi.split(",")
-rgbstrfore = fgi.split(",")
+bgi = bgi.split(",")
+fgi = fgi.split(",")
 
 #declare lists to store actual int values
 rgbback = []
 rgbfore = []
 
 #assign integers to lists
-for i in rgbstrback:
+for i in bgi:
     rgbback.append(int(i))
-for i in rgbstrfore:
+for i in fgi:
     rgbfore.append(int(i))
 
 

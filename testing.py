@@ -7,6 +7,11 @@ EpsImagePlugin.gs_windows_binary = "Ghostscript/bin/gswin64c.exe"
 def randrgb():
     return (random.randint(0,255),random.randint(0,255),random.randint(0,255))
 
+#input:
+
+
+
+
 #process image, turn grayscale and invert
 alpha = Image.open("resources/jerem.eps")
 alpha.load(scale=2)
